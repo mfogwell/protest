@@ -2,5 +2,5 @@ app:
   image: busybox
   environment:
     - FIRST_NAME=Michelle
-  env_file:
-    - env
+  encrypted_env_file:
+    - env.encrypted
