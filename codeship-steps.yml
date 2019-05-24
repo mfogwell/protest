@@ -1,2 +1,4 @@
 - service: app
   command: /bin/sh -c 'echo $FIRST_NAME $LAST_NAME'
+- service: app
+  command: /bin/sh -c 'echo Meshell Fugwell'
