@@ -1,5 +1,5 @@
 app:
-  image: busybox
+  image: docker.io/healthcheck/postgres:9.4
   environment:
     - FIRST_NAME=Michelle
   encrypted_env_file:
