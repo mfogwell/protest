@@ -1,5 +1,5 @@
 app:
-  image: docker.io/healthcheck/postgres:9.4
+  image: docker.io/healthcheck/postgres
   environment:
     - FIRST_NAME=Michelle
   encrypted_env_file:
