@@ -1,2 +1,12 @@
+- type: parallel
+  name: tests
+  steps:
+  - name: test-pipeline-1
+    service: app
+    command: /bin/sh -c 'echo test1'
+  - name: test-pipeline-2
+    service: app
+    command: /bin/sh -c 'echo test2'
 - service: app
-  command: /bin/sh -c 'echo $FIRST_NAME $LAST_NAME'
+  command: /bin/sh -c 'echo hello'
+  tag: master
