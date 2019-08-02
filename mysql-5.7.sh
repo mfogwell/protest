@@ -54,11 +54,6 @@ nice		= 0
 
 [mysqld]
 user		= rof
-# 2019-08-01
-early-plugin-load = keyring_file.so
-#keyring_file_data = /var/lib/mysql-keyring/keyring
-keyring_file_data = ${MYSQL_DIR}/mysql-keyring/keyring
-##################################################
 pid-file	= ${MYSQL_DIR}/mysqld.pid
 socket		= ${MYSQL_DIR}/socket/mysqld.sock
 port		= ${MYSQL_PORT}
