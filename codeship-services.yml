@@ -1,6 +1,6 @@
 app:
   image: docker.io/healthcheck/postgres
-  build: dockerfile
+  build: Dockerfile
   environment:
     - FIRST_NAME=Michelle
   encrypted_env_file:
