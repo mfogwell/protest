@@ -1,6 +1,8 @@
 app:
-  image: docker.io/healthcheck/postgres
-  build: Dockerfile
+  build:
+    image: codeship/app
+    context: app
+    dockerfile: Dockerfile
   environment:
     - FIRST_NAME=Michelle
   encrypted_env_file:
