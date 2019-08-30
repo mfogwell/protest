@@ -1,6 +1,5 @@
 - service: app
   command: /bin/sh -c 'echo $CI_BRANCH'
-  tag: master
 - type: parallel
   name: tests
   steps:
